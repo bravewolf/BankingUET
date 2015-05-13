@@ -1,0 +1,48 @@
+<script>
+ 	$.getScript(path + "js/AboutPage.js");
+</script>
+<script>
+ 	$.getScript(path + "js/OfflineAuthenticationChallenge.js");   
+</script>
+<h6 id="offlineAccess">Offline Access</h6>
+<div class="pageHeader">
+	About us
+</div>
+
+<div id="aboutWrapper">
+	   		<div id="unsecuredDiv">
+		   		
+		   		<p>The Banking UET application is a simple online banking application developed with IBM Worklight <br>
+		   		
+		   		This application is applied several Worklight security features, included:<br>
+		   		- Authentication<br>
+		   		- Authorization<br>
+		   		- Offline Authentication<br>
+		   		- Encrypted Data in JSONStore<br>
+		   		- Direct Update <br>
+		   		- Remote Disable <br><br> 
+		   		<b>Contact: <u>thinhnt_56@vnu.edu.vn</u></b>
+		   		</p>
+		   		<br>
+		   		<button id="goToSecuredArea" class="adminButton">BANK MANAGER AREA</button>
+	   		</div>
+	   		
+	   		<div id="developerAuthDiv">
+	   			<h4>Login to Bank Manager's area</h4>
+	   			<div id="authInfo"></div>
+	   			<input id="username" type="text" placeholder="Enter username"/>
+	   			<input id="password" type="password" placeholder="Enter password"/>
+	   			<button id="offlineLoginButton"  class="adminButton">Offline Login</button>
+	   			<button id="onlineLoginButton"  class="adminButton">Online Login</button>
+	   			<button id="cancelLoginButton"  class="adminButton">Cancel</button><br><br>
+	   		</div>
+	   		
+	   		<div id="securedDiv">
+	   			<div class="pageHeader">
+						BANK MANAGER AREA
+				</div>
+				<br>
+	   			<div><b>Customer password:</b> 12345</div><br>
+	   			<button class="adminButton" id="backToUnsecuredArea">Back to about page</button><button  class="adminButton" id="logout">Logout</button>
+	   		</div>
+</div>

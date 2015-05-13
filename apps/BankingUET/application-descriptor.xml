@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://www.worklight.com/application-descriptor" id="BankingUET" platformVersion="7.0.0.00.20150312-0731">
+    <displayName>Banking UET</displayName>
+    <description>Banking UET</description>
+    <author>
+        <name>Nguyen Truong Thinh</name>
+        <email>nguyentruongthinhcp@gmail.com</email>
+        <homepage>http://uet.vnu.edu.vn</homepage>
+        <copyright>Copyright Thinh Nguyen</copyright>
+    </author>
+    <mainFile>index.html</mainFile>
+    <features>
+        <JSONStore/>
+    </features>
+    <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
+    <android version="1.0">
+        <worklightSettings include="false"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+            <publicSigningKey/>
+            <packageName/>
+        </security>
+    </android>
+</application>

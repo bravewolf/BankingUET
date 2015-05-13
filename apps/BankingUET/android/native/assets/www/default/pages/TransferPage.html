@@ -1,0 +1,21 @@
+<script>
+ 	$.getScript(path + "js/TransferPage.js");
+</script>
+<div class="pageHeader">
+	Create a transaction.
+</div>
+
+
+
+<div id="transferDiv">
+	<div id=currentAccountBalance></div>
+	<div id="fromAccount"></div>
+	<b>To Account:</b><br>
+	<input name="toAccount"  class="inputEdit" placeholder="Enter Target Account" type="text" id="toAccount"/><br>
+	<b>Transaction Amount (USD):</b><br> 
+	<input name="transactionAmount"  class="inputEdit" placeholder="Enter Money Amount" type="text" id="transactionAmount"/><br>
+</div>
+
+<div>
+	<input type="button" class="userButton" value="SUBMIT" onclick="currentPage.transfer();">
+</div>

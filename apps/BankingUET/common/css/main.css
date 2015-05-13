@@ -1,0 +1,361 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	font-family: sans-serif;
+	background-color: #ffffff;
+	position: relative;
+	height: 100%
+}
+
+h1 {
+	margin: 0;
+	font-size: 14px;
+	font-family: inherit;
+}
+h6 {
+	text-align: center;
+	background-color: red;
+	border-bottom: 1px solid white;
+    line-height:20px;
+    margin:0;
+}
+#appwrapper {
+	height: 100%;
+	min-height: 100%;
+	margin-bottom: -38px;
+}
+
+#header {
+	text-align: center;
+	background-color: #009245;
+	color: #ffffff;
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid white;
+	position: fixed;
+	width: 100%;
+	font-weight: bold;
+	border-color: #54cc60;
+}
+
+.pageHeader {
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	color: #009245;
+	font-weight: bold;
+	class
+	="pageHeader"
+}
+
+#homeButton {
+	float: right;
+	margin: -27px 5px 0 auto;
+	font-size: 0.7em;
+	background-color: #8cc63f;
+	border-color: #4d6c22;
+	color: #ffffff;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none !important;
+	border-radius: 10px;
+}
+
+#backButton {
+	float: left;
+	margin: -27px auto 0 5px;
+	font-size: 0.7em;
+	background-color: #8cc63f;
+	border-color: #4d6c22;
+	color: #ffffff;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none !important;
+	border-radius: 10px;
+}
+
+#backButton:active {
+	vertical-align: top;
+	background-color: #a1e348;
+	border-color: #587c27;
+}
+
+#homeButton:active {
+	vertical-align: top;
+	background-color: #a1e348;
+	border-color: #587c27;
+}
+
+#footer {
+	text-align: center;
+	background-color: #009245;
+	color: #ffffff;
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid white;
+	width: 100%;
+	font-weight: bold;
+	border-color: #54cc60;
+	position: fixed;
+	bottom: 0;
+}
+
+#wrapper {
+	width: 90%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 38px;
+}
+
+.appButton {
+	width: 100%;
+	height: 3em;
+	font-size: 0.8em;
+	margin: 10px auto 0 auto;
+	background-color: #8cc63f;
+	border-color: #4d6c22;
+	color: #ffffff;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none !important;
+	border-radius: 10px;
+}
+
+.appButton:active {
+	vertical-align: top;
+	padding: 8px 13px 6px;
+	background-color: #a1e348;
+	border-color: #587c27;
+}
+
+.adminButton {
+	width: 100%;
+	height: 3em;
+	font-size: 0.8em;
+	margin: 10px auto 0 auto;
+	background-color: #ed1c24;
+	border-color: #820f13;
+	color: #ffffff;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none !important;
+	border-radius: 10px;
+}
+
+.adminButton:active {
+	vertical-align: top;
+	padding: 8px 13px 6px;
+	background-color: #FF2029;
+	border-color: #8c1116;
+}
+
+.developerButton {
+	width: 100%;
+	height: 3em;
+	font-size: 0.8em;
+	margin: 10px auto 0 auto;
+	background-color: #fcee21;
+	border-color: #8a8212;
+	color: #000000;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none !important;
+	border-radius: 10px;
+}
+
+.developerButton:active {
+	vertical-align: top;
+	padding: 8px 13px 6px;
+	background-color: #FFFF25;
+	border-color: #8c8c14;
+}
+
+.userButton {
+	width: 100%;
+	height: 3em;
+	font-size: 0.8em;
+	margin: 10px auto 0 auto;
+	background-color: #29abe2;
+	border-color: #165e7c;
+	color: #ffffff;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none !important;
+	border-radius: 10px;
+}
+
+.userButton:active {
+	vertical-align: top;
+	padding: 8px 13px 6px;
+	background-color: #2fc4FF;
+	border-color: #196b8c;
+}
+
+.ui-btn-corner-all, .ui-btn.ui-corner-all {
+	-webkit-border-radius: .3125em /*{global-radii-buttons}*/;
+	border-radius: .3125em /*{global-radii-buttons}*/;
+}
+
+.formButton {
+	width: 50%;
+}
+
+#AuthUsername, #AuthPassword, #AdminAuthUsername, #AdminAuthPassword, #username, #password {
+	margin: 0.2em 0 0.2em 0;
+	width: 97%;
+	height: 6%;
+	height: 3em;
+	font-size: 0.8em;
+	margin: 0 auto 0 auto;
+	padding-left: 5px;
+	border-radius: 10px;
+}
+
+
+
+.inputEdit {
+	margin: 0.2em 0 0.2em 0;
+	width: 97%;
+	height: 6%;
+	height: 3em;
+	font-size: 0.8em;
+	margin: 0 auto 0 auto;
+	padding-left: 5px;
+	border-radius: 10px;
+}
+/* Provide different styling for iOS 7. */
+body.wl_ios7 {
+	padding-top: 0pt !important;
+}
+
+#accountType {
+	margin: 0;
+	width:97%;
+	opacity: 1;
+	border-radius: .3125em /*{global-radii-buttons}*/;
+	font-size: 16px;
+	background-color: #f6f6f6 /*{a-bup-background-color}*/;
+	border-color: #dddddd /*{a-bup-border}*/;
+	color: #333333 /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0
+		/*{a-bup-shadow-radius}*/ #f3f3f3 /*{a-bup-shadow-color}*/;
+	padding: .7em 1em;
+	display: block;
+	position: relative;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-user-select: none;
+	box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0, 0, 0, .15)
+		/*{global-box-shadow-color}*/;
+	background-clip: padding-box;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 1.3;
+	font-family: sans-serif /*{global-font-family}*/;
+}
+
+.wl_ios7 #header {
+	padding-top: 9px;
+}
+
+.wl_ios7 #wrapper {
+	padding-top: 55px;
+}
+
+#AppBody {
+	min-height: 460px;
+	margin: 0 auto;
+	/*width: 320px;*/
+	background-color: #ccc;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#itemsList {
+	margin-top: 38px;
+}
+
+#itemsList li {
+	border-bottom: 1px solid #bbb;
+	min-height: 40px;
+	padding: 0 25px 0 0px;
+	cursor: pointer;
+}
+
+#itemsList li .pubDate {
+	color: #555;
+	font-size: 10px;
+	font-family: Arial;
+}
+
+#itemsList li:hover {
+	background-color: #EFEFEF;
+}
+
+#accountList {
+	margin-top: 38px;
+}
+
+#accountList li {
+	border-bottom: 1px solid #bbb;
+	min-height: 40px;
+	padding: 20px 25px 0 0;
+	cursor: pointer;
+}
+
+#accountList li .pubDate {
+	color: #555;
+	font-size: 10px;
+	font-family: Arial;
+}
+
+#accountList li:hover {
+	background-color: #EFEFEF;
+}
+
+#transactionHistoryList {
+	margin-top: 38px;
+}
+
+#transactionHistoryList li {
+	border-bottom: 1px solid #bbb;
+	min-height: 40px;
+	padding: 0 25px 0 0;
+	cursor: pointer;
+}
+
+#transactionHistoryList li .pubDate {
+	color: #555;
+	font-size: 10px;
+	font-family: Arial;
+}
+
+#transactionHistoryList li:hover {
+	background-color: #EFEFEF;
+}
+
+#logo {
+	position: fixed;
+	float: center;
+}
+#aboutWrapper {
+	width: 90%;
+	margin: auto;
+	padding-top: 45px;
+}
+
+#currentPassword,#developerAuthDiv, #securedDiv, #offlineAccess, #onlineLoginButton, #offlineLoginButton {
+	display: none;
+}

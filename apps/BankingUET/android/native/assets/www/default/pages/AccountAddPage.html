@@ -1,0 +1,21 @@
+<script>
+ 	$.getScript(path + "js/AccountAddPage.js");
+</script>
+
+<div class="pageHeader">
+	Create an account.
+</div>
+
+<div id="addAccount">
+	<b>Account Type:</b><br>
+	<select id="accountType">
+		<option value="" selected="selected">Select Account Type</option>
+		<option value="Savings">Savings</option>
+		<option value="Checking">Checking</option>
+	</select>
+	<br><b>Account Balance (USD):</b><br>
+	<input name="accountBalance"  class="inputEdit" placeholder="Enter Account Balance" type="text" id="accountBalance"/><br>
+</div>
+<div>
+	<input type="button" class="adminButton" value="CREATE ACCOUNT" onclick="currentPage.add();">
+</div>

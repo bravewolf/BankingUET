@@ -1,0 +1,19 @@
+<script>
+ 	$.getScript(path + "js/CustomerAddPage.js");
+</script>
+<div class="pageHeader">
+	Add a new customer.
+</div>
+
+<div id="addCustomer">
+	<b>First Name:</b><br>
+	<input name="firstName"  class="inputEdit" placeholder="Enter First Name" type="text" id="firstName"/><br>
+	<b>Last Name:</b><br>
+	<input name="lastName"  class="inputEdit" placeholder="Enter Last Name" type="text" id="lastName"/><br>
+	<b>Password:</b><br> 
+	<input name="password"  class="inputEdit" placeholder="Enter Password" type="password" id="password"/><br>
+</div>
+
+<div>
+	<input type="button" class="appButton" value="ADD CUSTOMER" onclick="currentPage.add();">
+</div>

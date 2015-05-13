@@ -1,0 +1,22 @@
+<script>
+ 	$.getScript(path + "js/CustomerEditPage.js");
+</script>
+
+
+<div id="editCustomer">
+	<div id="editCustomerId"></div>
+	<b>First Name:</b><br>
+	<input name="firstName" class="inputEdit" placeholder="Enter First Name" type="text" id="editFirstName"/><br>
+	<b>Last Name:</b><br>
+	<input name="lastName" class="inputEdit" placeholder="Enter Last Name" type="text" id="editLastName"/><br>
+	<b>Old Password:</b><br> 
+	<input name="password" class="inputEdit" placeholder="Enter Old Password" type="password" id="oldPassword"/><br>
+	<b>New Password:</b><br> 
+	<input name="password" class="inputEdit" placeholder="Enter New Password" type="password" id="newPassword"/><br>
+	<b>Comfirm New Password:</b><br> 
+	<input name="password" class="inputEdit" placeholder="Comfirm New Password" type="password" id="confirmNewPassword"/><br>
+	<input name="password" class="inputEdit" placeholder="Enter Password" type="password" id="currentPassword"/><br>
+</div>
+<div>
+	<input type="button" class="appButton" value="EDIT CUSTOMER" onclick="currentPage.edit();">
+</div>

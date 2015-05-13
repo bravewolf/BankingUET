@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>index</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<link rel="shortcut icon" href="images/favicon.png">
+    		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    		<link rel="stylesheet" href="css/main.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    	</head>
+    	<body>
+	    	<div id="appwrapper">
+	    		<div id="header">
+					<h1>Banking UET</h1>
+					<input type="button" id="homeButton" value="HOME" onclick="loadHome();" />
+					<input type="button" id="backButton" value="BACK" onclick="currentPage.back();" />
+					<h6 id="offlineAccess">Offline Access</h6>
+				</div>
+				
+				<div id="wrapper">	
+		    		<div id="AppDiv">				
+						<div id="pagePort"></div>
+					</div>
+		
+					<div id="AuthDiv" style="display: none">
+						<p id="AuthInfo"></p>
+						<div id="loginForm">
+							<input type="text" id="AuthUsername" placeholder="Enter username" /><br/><br/>
+							<input type="password" id="AuthPassword"  placeholder="Enter password"/><br/>		
+							<input type="button" id="AuthSubmitButton" class="userButton" value="Login" style="width: 50%;" /><input type="button" id="AuthCancelButton" class="userButton" value="Cancel" style="width: 50%;"/>
+							</div>
+					</div>
+					<div id="AdminAuthDiv" style="display: none">
+						<p id="AdminAuthInfo"></p>
+						<div id="AdminloginForm">
+							<input type="text" id="AdminAuthUsername" placeholder="Enter username" /><br/><br/>
+							<input type="password" id="AdminAuthPassword"  placeholder="Enter password"/><br/>		
+							<input type="button" id="AdminAuthSubmitButton" class="adminButton" value="Login"style="width: 50%;" /><input type="button" id="AdminAuthCancelButton" class="adminButton" value="Cancel" style="width: 50%;"/>
+						</div>
+					</div>
+					<input type="button" id="logoutButton" class="userButton" value="CUSTOMER LOG OUT" onclick="WL.Client.logout('CustomerAuthenticatorRealm',{onSuccess: WL.Client.reloadApp})" />
+					<input type="button" id="ManagerLogoutButton" class="adminButton" value="BANK MANAGER LOG OUT" onclick="WL.Client.logout('ManagerAuthenticatorRealm',{onSuccess: WL.Client.reloadApp})" />
+								  
+				</div>
+			</div> 
+				<div id="footer">
+					<h1>@Copyright Nguyen Truong Thinh</h1>
+				</div>
+			
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		<script src="js/AuthenticatorRealmChallengeHandler.js"></script>
+    	</body>
+</html>

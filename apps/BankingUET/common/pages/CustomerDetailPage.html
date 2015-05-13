@@ -1,0 +1,10 @@
+<script>
+ 	$.getScript(path + "js/CustomerDetailPage.js");
+</script>
+<div>
+	<input type="button" id="getAccountList" class="userButton" value="ACCOUNT LIST" onclick="currentPage.listAccount();" />
+	<input type="button" id="createAccount" class="adminButton" value="CREATE AN ACCOUNT" onclick="currentPage.addAccount();" />
+	<input type="button" id="getCustomerInfo" class="appButton" value="CUSTOMER INFORMATION" onclick="currentPage.infoCustomer();" />
+	<input type="button" id="editCustomer" class="appButton" value="EDIT CUSTOMER" onclick="currentPage.editCustomer();">
+	<input type="button" id="deleteAccount" class="appButton" value="DELETE CUSTOMER" onclick="currentPage.remove();">
+</div>

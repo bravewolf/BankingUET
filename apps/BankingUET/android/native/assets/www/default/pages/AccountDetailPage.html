@@ -1,0 +1,11 @@
+<script>
+ 	$.getScript(path + "js/AccountDetailPage.js");
+</script>
+
+<div>
+	<input type="button" class="userButton" value="ACCOUNT INFORMATION" onclick="currentPage.accountInfo();" />
+	<input type="button" class="userButton" value="TRANSACTIONS HISTORY" onclick="currentPage.transactionHistory();" />
+	<input type="button" class="userButton" value="TRANSFER MONEY" onclick="currentPage.transferMoney();" />
+	<input type="button" class="adminButton" value="DELETE ACCOUNT" onclick="currentPage.removeAccount();" />
+</div>
+<div id="transactionHistory"></div>
